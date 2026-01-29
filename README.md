@@ -4,7 +4,7 @@
 Analyze smart device usage data to identify trends in activity, sleep, and daily habits, and apply insights to improve marketing strategy for the Bellabeat app.
 
 ## Dataset
-FitBit Fitness Tracker Data (Kaggle, CC0 public domain)
+FitBit Fitness Tracker Data (Kaggle)
 
 ## Tools
 - R
