@@ -1,21 +1,31 @@
 # fitbit-usage-analysis
 
-**Overview**
-Analysis of consumer smart device usage using R to identify activity trends and engagement insights
+## Business Task
+Analyze smart device usage data to identify trends in activity, sleep, and daily habits, and apply insights to improve marketing strategy for the Bellabeat app.
 
-**Tools**
-- R (tidyverse, ggplot2, lubridate)
-- Excel
+## Dataset
+FitBit Fitness Tracker Data (Kaggle, CC0 public domain)
 
-**Key Tasks**
--Cleaned and prepared raw usage data
--Performed exploratory data analysis
--Created visualizations to identify trends
--Developed insights and recommendations based on findings
+## Tools
+- R
+- tidyverse
+- ggplot2
+- lubridate
 
-**Results**
-The analysis revealed moderate average activity levels, gaps in device engagement
+## Key Insights
+- Most user-days fall below the 10,000-step benchmark
+- Activity levels are slightly higher on weekdays than weekends
+- Daily steps strongly correlate with calories burned
+- Higher activity does not strongly predict longer sleep duration
 
-**Files**
--analysis.R | data cleaning, analysis, and visualization code
--report.pdf | summary of findings and recommendations
+## Repository Structure
+- `data/` – raw datasets
+- `scripts/` – modular R scripts for cleaning, analysis, and visualization
+- `figures/` – exported charts
+
+## How to Run
+Run the scripts in order:
+1. `01_setup_and_import.R`
+2. `02_clean_and_merge.R`
+3. `03_analysis_and_insights.R`
+4. `04_visualizations.R`
